@@ -20,7 +20,6 @@ class MyNavigationC: UINavigationController {
         //导航栏返回按钮颜色
         self.navigationBar.tintColor = UIColor.whiteColor()
         //导航栏标题样式
-        //    self.navigationController?.navigationBar.titleTextAttributes = NSDictionary.dictionaryWithValuesForKeys(<#keys: [AnyObject]#>)
     }
 
 }

@@ -13,6 +13,7 @@
 		EA1C53461A7B7F7F00B5D30A /* MainC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C53451A7B7F7F00B5D30A /* MainC.swift */; };
 		EA1C534A1A7DE90700B5D30A /* MyNavigationC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C53491A7DE90700B5D30A /* MyNavigationC.swift */; };
 		EA5D222A1A835EA9006A9E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5D22291A835EA9006A9E0A /* Main.storyboard */; };
+		EA5D222C1A836E66006A9E0A /* ClickDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D222B1A836E66006A9E0A /* ClickDetail.swift */; };
 		EAEEA6451A78D9A900AEBEC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEEA6441A78D9A900AEBEC2 /* AppDelegate.swift */; };
 		EAEEA6481A78D9A900AEBEC2 /* Plan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAEEA6461A78D9A900AEBEC2 /* Plan.xcdatamodeld */; };
 		EAEEA64F1A78D9A900AEBEC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEEA64E1A78D9A900AEBEC2 /* Images.xcassets */; };
@@ -37,6 +38,7 @@
 		EA1C53451A7B7F7F00B5D30A /* MainC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainC.swift; sourceTree = "<group>"; };
 		EA1C53491A7DE90700B5D30A /* MyNavigationC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationC.swift; sourceTree = "<group>"; };
 		EA5D22291A835EA9006A9E0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EA5D222B1A836E66006A9E0A /* ClickDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickDetail.swift; sourceTree = "<group>"; };
 		EAEEA63F1A78D9A900AEBEC2 /* Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEEA6431A78D9A900AEBEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAEEA6441A78D9A900AEBEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA4F23DF1A83755E00DA855A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C53451A7B7F7F00B5D30A /* MainC.swift */,
+				EA5D222B1A836E66006A9E0A /* ClickDetail.swift */,
+				EA1C53491A7DE90700B5D30A /* MyNavigationC.swift */,
+				EA1C53411A7B766E00B5D30A /* LeftMenuC.swift */,
+				EA1C533D1A7B650400B5D30A /* RootC.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		EAEEA6361A78D9A900AEBEC2 = {
 			isa = PBXGroup;
 			children = (
@@ -89,16 +103,9 @@
 		EAEEA6411A78D9A900AEBEC2 /* Plan */ = {
 			isa = PBXGroup;
 			children = (
-				EA1C53451A7B7F7F00B5D30A /* MainC.swift */,
 				EAEEA6441A78D9A900AEBEC2 /* AppDelegate.swift */,
-				EAEEA64E1A78D9A900AEBEC2 /* Images.xcassets */,
-				EA5D22291A835EA9006A9E0A /* Main.storyboard */,
-				EAEEA6501A78D9A900AEBEC2 /* LaunchScreen.xib */,
-				EAEEA6461A78D9A900AEBEC2 /* Plan.xcdatamodeld */,
+				EA4F23DF1A83755E00DA855A /* ViewController */,
 				EAEEA6421A78D9A900AEBEC2 /* Supporting Files */,
-				EA1C533D1A7B650400B5D30A /* RootC.swift */,
-				EA1C53411A7B766E00B5D30A /* LeftMenuC.swift */,
-				EA1C53491A7DE90700B5D30A /* MyNavigationC.swift */,
 			);
 			path = Plan;
 			sourceTree = "<group>";
@@ -106,6 +113,10 @@
 		EAEEA6421A78D9A900AEBEC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAEEA64E1A78D9A900AEBEC2 /* Images.xcassets */,
+				EA5D22291A835EA9006A9E0A /* Main.storyboard */,
+				EAEEA6501A78D9A900AEBEC2 /* LaunchScreen.xib */,
+				EAEEA6461A78D9A900AEBEC2 /* Plan.xcdatamodeld */,
 				EAEEA6431A78D9A900AEBEC2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -232,6 +243,7 @@
 				EA1C53461A7B7F7F00B5D30A /* MainC.swift in Sources */,
 				EA1C533E1A7B650400B5D30A /* RootC.swift in Sources */,
 				EAEEA6481A78D9A900AEBEC2 /* Plan.xcdatamodeld in Sources */,
+				EA5D222C1A836E66006A9E0A /* ClickDetail.swift in Sources */,
 				EAEEA6451A78D9A900AEBEC2 /* AppDelegate.swift in Sources */,
 				EA1C534A1A7DE90700B5D30A /* MyNavigationC.swift in Sources */,
 			);

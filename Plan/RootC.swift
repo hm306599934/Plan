@@ -17,7 +17,6 @@ public enum MenuState: Int{
 protocol MenuDelegate{
     func openMenu()
     func closeMenu()
-    func hideMenu()
 }
 
 var menuStae: MenuState = MenuState.Closed
@@ -93,13 +92,5 @@ class RootC: UIViewController, MenuDelegate {
         menuStae = MenuState.Closed
         mainViewController.view.removeGestureRecognizer(self.tapRecognizer!)
     }
-    
-    func hideMenu() {
-        UIView.beginAnimations(nil, context: nil)
-        UIView.setAnimationCurve(UIViewAnimationCurve.EaseIn)
-        mainViewController.view.frame = CGRectMake(0, mainViewController.view.frame.origin.y, mainViewController.view.frame.size.width, mainViewController.view.frame.size.height)
-        UIView.commitAnimations()
-        menuStae = MenuState.Closed
-        mainViewController.view.removeGestureRecognizer(self.tapRecognizer!)
-    }
+
 }

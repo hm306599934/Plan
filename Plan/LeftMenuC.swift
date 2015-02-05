@@ -8,11 +8,16 @@
 
 import UIKit
 
+protocol MenuClickDelegate{
+      func clickMenu()
+}
+
+var menuClickDelegate: MenuClickDelegate?
+
 class LeftMenuC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var mTableView: UITableView!
-     var delegate: MenuDelegate?
-    
+    var delegate: MenuDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -20,9 +25,7 @@ class LeftMenuC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewWillAppear(animated: Bool) {
          self.navigationController?.navigationBar.hidden = true
-        if delegate != nil {
-            delegate?.openMenu()
-        }
+       
     }
     
     override func viewWillDisappear(animated: Bool) {
@@ -52,9 +55,10 @@ class LeftMenuC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        if delegate != nil {
-            delegate?.hideMenu()
+        if menuClickDelegate != nil {
+            menuClickDelegate?.clickMenu()
         }
-        self.performSegueWithIdentifier("ShowDetail", sender: nil)
     }
+    
+    
 }

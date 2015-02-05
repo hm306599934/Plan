@@ -7,12 +7,12 @@
 //
 import UIKit
 
-class MainC: UIViewController {
+class MainC: UIViewController, MenuClickDelegate {
     var delegate: MenuDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        initNavigation()
+        menuClickDelegate = self
     }
     
     override func didReceiveMemoryWarning() {
@@ -28,16 +28,8 @@ class MainC: UIViewController {
         }
     }
     
-    func initNavigation(){
-    //导航栏背景
-    UINavigationBar.appearance().barTintColor = UIColor(red: 33.0/255.0, green: 168.0/255.0, blue: 233.0/255.0, alpha: 0.9)
-    //状态栏颜色
-    UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
-    //导航栏返回按钮颜色
-    //self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-    //导航栏标题样式
-//    self.navigationController?.navigationBar.titleTextAttributes = NSDictionary.dictionaryWithValuesForKeys(<#keys: [AnyObject]#>)
-//        
-//        NSDictionary.dictionaryWithValuesForKeys(UIColor.whiteColor(), NSForegroundColorAttributeName,UIFont.boldSystemFontOfSize(20.0), NSFontAttributeName,nil)
+    func clickMenu() {
+        self.performSegueWithIdentifier("ShowDetail", sender: nil)
     }
+
 }
