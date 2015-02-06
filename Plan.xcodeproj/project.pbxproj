@@ -84,7 +84,6 @@
 		EAEEA6361A78D9A900AEBEC2 = {
 			isa = PBXGroup;
 			children = (
-				EA1C533F1A7B653B00B5D30A /* UIKit.framework */,
 				EAEEA6411A78D9A900AEBEC2 /* Plan */,
 				EAEEA65A1A78D9A900AEBEC2 /* PlanTests */,
 				EAEEA6401A78D9A900AEBEC2 /* Products */,
@@ -118,6 +117,7 @@
 				EAEEA6501A78D9A900AEBEC2 /* LaunchScreen.xib */,
 				EAEEA6461A78D9A900AEBEC2 /* Plan.xcdatamodeld */,
 				EAEEA6431A78D9A900AEBEC2 /* Info.plist */,
+				EA1C533F1A7B653B00B5D30A /* UIKit.framework */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
