@@ -13,6 +13,9 @@ class MainC: UIViewController, MenuClickDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         menuClickDelegate = self
+        let titleView = UIImageView(frame:CGRectMake(0, 0, 95, 32))
+        titleView.image = UIImage(named:"icon_ihour")
+        self.navigationItem.titleView = titleView
     }
     
     override func didReceiveMemoryWarning() {
@@ -31,5 +34,22 @@ class MainC: UIViewController, MenuClickDelegate {
     func clickMenu() {
         self.performSegueWithIdentifier("ShowDetail", sender: nil)
     }
+    
+//    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return 20
+//    }
+//    
+//    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+//        return 1
+//    }
+//    
+//    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+//        let cellIdentifier: String = "CollectionCellIdentifier"
+//        var cell: UICollectionViewCell? = collectionView.dequeueReusableCellWithReuseIdentifier(cellIdentifier, forIndexPath: indexPath) as? UICollectionViewCell
+////        cell.backgroundColor = UIColor(red: 10 * indexPath.row / 255.0, green: 20 * indexPath.row /255.0, blue: 30 * indexPath.row/255.0, alpha: 1.0)
+//        
+//       
+//        return cell!
+//    }
 
 }
