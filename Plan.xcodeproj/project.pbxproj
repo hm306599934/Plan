@@ -14,9 +14,15 @@
 		EA1C534A1A7DE90700B5D30A /* MyNavigationC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C53491A7DE90700B5D30A /* MyNavigationC.swift */; };
 		EA2F817B1A84D1550052431F /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F817A1A84D1550052431F /* ColorHelper.swift */; };
 		EA2F817D1A872AAD0052431F /* Apperence.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA2F817C1A872AAD0052431F /* Apperence.plist */; };
+		EA2F817F1A88538E0052431F /* AddItemTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F817E1A88538E0052431F /* AddItemTitleTableViewCell.swift */; };
+		EA2F81811A8853AE0052431F /* AddItemTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F81801A8853AE0052431F /* AddItemTimeTableViewCell.swift */; };
+		EA2F81831A8853C40052431F /* AddItemRemindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F81821A8853C40052431F /* AddItemRemindTableViewCell.swift */; };
+		EA2F81851A8860F70052431F /* AddItemIconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F81841A8860F70052431F /* AddItemIconTableViewCell.swift */; };
 		EA4F23E31A845DA200DA855A /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F23E21A845DA200DA855A /* MainCollectionViewCell.swift */; };
 		EA5D222A1A835EA9006A9E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5D22291A835EA9006A9E0A /* Main.storyboard */; };
-		EA5D222C1A836E66006A9E0A /* ClickDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D222B1A836E66006A9E0A /* ClickDetail.swift */; };
+		EA5D222C1A836E66006A9E0A /* AddItemC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D222B1A836E66006A9E0A /* AddItemC.swift */; };
+		EA6683731A888B4600F6BA11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6683721A888B4600F6BA11 /* QuartzCore.framework */; };
+		EAE35F221A88B4EF00AEB730 /* AddItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE35F211A88B4EF00AEB730 /* AddItemCollectionViewCell.swift */; };
 		EAEEA6451A78D9A900AEBEC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEEA6441A78D9A900AEBEC2 /* AppDelegate.swift */; };
 		EAEEA6481A78D9A900AEBEC2 /* Plan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAEEA6461A78D9A900AEBEC2 /* Plan.xcdatamodeld */; };
 		EAEEA64F1A78D9A900AEBEC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEEA64E1A78D9A900AEBEC2 /* Images.xcassets */; };
@@ -42,9 +48,15 @@
 		EA1C53491A7DE90700B5D30A /* MyNavigationC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationC.swift; sourceTree = "<group>"; };
 		EA2F817A1A84D1550052431F /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		EA2F817C1A872AAD0052431F /* Apperence.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Apperence.plist; sourceTree = "<group>"; };
+		EA2F817E1A88538E0052431F /* AddItemTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTitleTableViewCell.swift; sourceTree = "<group>"; };
+		EA2F81801A8853AE0052431F /* AddItemTimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTimeTableViewCell.swift; sourceTree = "<group>"; };
+		EA2F81821A8853C40052431F /* AddItemRemindTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemRemindTableViewCell.swift; sourceTree = "<group>"; };
+		EA2F81841A8860F70052431F /* AddItemIconTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemIconTableViewCell.swift; sourceTree = "<group>"; };
 		EA4F23E21A845DA200DA855A /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		EA5D22291A835EA9006A9E0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		EA5D222B1A836E66006A9E0A /* ClickDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickDetail.swift; sourceTree = "<group>"; };
+		EA5D222B1A836E66006A9E0A /* AddItemC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemC.swift; sourceTree = "<group>"; };
+		EA6683721A888B4600F6BA11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAE35F211A88B4EF00AEB730 /* AddItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		EAEEA63F1A78D9A900AEBEC2 /* Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEEA6431A78D9A900AEBEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAEEA6441A78D9A900AEBEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6683731A888B4600F6BA11 /* QuartzCore.framework in Frameworks */,
 				EA1C53401A7B653B00B5D30A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				EA1C53451A7B7F7F00B5D30A /* MainC.swift */,
-				EA5D222B1A836E66006A9E0A /* ClickDetail.swift */,
+				EA5D222B1A836E66006A9E0A /* AddItemC.swift */,
 				EA1C53491A7DE90700B5D30A /* MyNavigationC.swift */,
 				EA1C53411A7B766E00B5D30A /* LeftMenuC.swift */,
 				EA1C533D1A7B650400B5D30A /* RootC.swift */,
@@ -106,7 +119,12 @@
 		EA4F23E11A845D6000DA855A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				EA2F81841A8860F70052431F /* AddItemIconTableViewCell.swift */,
+				EA2F81821A8853C40052431F /* AddItemRemindTableViewCell.swift */,
+				EA2F81801A8853AE0052431F /* AddItemTimeTableViewCell.swift */,
+				EA2F817E1A88538E0052431F /* AddItemTitleTableViewCell.swift */,
 				EA4F23E21A845DA200DA855A /* MainCollectionViewCell.swift */,
+				EAE35F211A88B4EF00AEB730 /* AddItemCollectionViewCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -114,7 +132,6 @@
 		EAEEA6361A78D9A900AEBEC2 = {
 			isa = PBXGroup;
 			children = (
-				EA1C533F1A7B653B00B5D30A /* UIKit.framework */,
 				EAEEA6411A78D9A900AEBEC2 /* Plan */,
 				EAEEA65A1A78D9A900AEBEC2 /* PlanTests */,
 				EAEEA6401A78D9A900AEBEC2 /* Products */,
@@ -145,6 +162,8 @@
 		EAEEA6421A78D9A900AEBEC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA6683721A888B4600F6BA11 /* QuartzCore.framework */,
+				EA1C533F1A7B653B00B5D30A /* UIKit.framework */,
 				EAEEA64E1A78D9A900AEBEC2 /* Images.xcassets */,
 				EA5D22291A835EA9006A9E0A /* Main.storyboard */,
 				EAEEA6501A78D9A900AEBEC2 /* LaunchScreen.xib */,
@@ -275,12 +294,17 @@
 			files = (
 				EA1C53421A7B766E00B5D30A /* LeftMenuC.swift in Sources */,
 				EA1C53461A7B7F7F00B5D30A /* MainC.swift in Sources */,
+				EA2F81831A8853C40052431F /* AddItemRemindTableViewCell.swift in Sources */,
 				EA1C533E1A7B650400B5D30A /* RootC.swift in Sources */,
 				EA4F23E31A845DA200DA855A /* MainCollectionViewCell.swift in Sources */,
+				EAE35F221A88B4EF00AEB730 /* AddItemCollectionViewCell.swift in Sources */,
 				EA2F817B1A84D1550052431F /* ColorHelper.swift in Sources */,
+				EA2F817F1A88538E0052431F /* AddItemTitleTableViewCell.swift in Sources */,
+				EA2F81811A8853AE0052431F /* AddItemTimeTableViewCell.swift in Sources */,
 				EAEEA6481A78D9A900AEBEC2 /* Plan.xcdatamodeld in Sources */,
-				EA5D222C1A836E66006A9E0A /* ClickDetail.swift in Sources */,
+				EA5D222C1A836E66006A9E0A /* AddItemC.swift in Sources */,
 				EAEEA6451A78D9A900AEBEC2 /* AppDelegate.swift in Sources */,
+				EA2F81851A8860F70052431F /* AddItemIconTableViewCell.swift in Sources */,
 				EA1C534A1A7DE90700B5D30A /* MyNavigationC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
