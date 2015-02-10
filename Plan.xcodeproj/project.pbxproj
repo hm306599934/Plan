@@ -22,6 +22,10 @@
 		EA5D222A1A835EA9006A9E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5D22291A835EA9006A9E0A /* Main.storyboard */; };
 		EA5D222C1A836E66006A9E0A /* AddItemC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D222B1A836E66006A9E0A /* AddItemC.swift */; };
 		EA6683731A888B4600F6BA11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6683721A888B4600F6BA11 /* QuartzCore.framework */; };
+		EACA24DD1A89B28A002F0C84 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA24DC1A89B28A002F0C84 /* Int.swift */; };
+		EACA24DF1A89B72E002F0C84 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA24DE1A89B72E002F0C84 /* String.swift */; };
+		EACA24E11A89D8E3002F0C84 /* CustomPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACA24E01A89D8E3002F0C84 /* CustomPickerView.xib */; };
+		EACA24E31A89DB59002F0C84 /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA24E21A89DB59002F0C84 /* CustomPickerView.swift */; };
 		EAE35F221A88B4EF00AEB730 /* AddItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE35F211A88B4EF00AEB730 /* AddItemCollectionViewCell.swift */; };
 		EAEEA6451A78D9A900AEBEC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEEA6441A78D9A900AEBEC2 /* AppDelegate.swift */; };
 		EAEEA6481A78D9A900AEBEC2 /* Plan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAEEA6461A78D9A900AEBEC2 /* Plan.xcdatamodeld */; };
@@ -56,6 +60,10 @@
 		EA5D22291A835EA9006A9E0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EA5D222B1A836E66006A9E0A /* AddItemC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemC.swift; sourceTree = "<group>"; };
 		EA6683721A888B4600F6BA11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EACA24DC1A89B28A002F0C84 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		EACA24DE1A89B72E002F0C84 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		EACA24E01A89D8E3002F0C84 /* CustomPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPickerView.xib; sourceTree = "<group>"; };
+		EACA24E21A89DB59002F0C84 /* CustomPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
 		EAE35F211A88B4EF00AEB730 /* AddItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		EAEEA63F1A78D9A900AEBEC2 /* Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEEA6431A78D9A900AEBEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				EA2F817A1A84D1550052431F /* ColorHelper.swift */,
+				EACA24DC1A89B28A002F0C84 /* Int.swift */,
+				EACA24DE1A89B72E002F0C84 /* String.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -111,6 +121,7 @@
 		EA4F23E01A845D5500DA855A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EACA24E41A89DB6A002F0C84 /* Widget */,
 				EA4F23E11A845D6000DA855A /* Cell */,
 			);
 			name = View;
@@ -127,6 +138,14 @@
 				EAE35F211A88B4EF00AEB730 /* AddItemCollectionViewCell.swift */,
 			);
 			name = Cell;
+			sourceTree = "<group>";
+		};
+		EACA24E41A89DB6A002F0C84 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				EACA24E21A89DB59002F0C84 /* CustomPickerView.swift */,
+			);
+			name = Widget;
 			sourceTree = "<group>";
 		};
 		EAEEA6361A78D9A900AEBEC2 = {
@@ -170,6 +189,7 @@
 				EAEEA6461A78D9A900AEBEC2 /* Plan.xcdatamodeld */,
 				EAEEA6431A78D9A900AEBEC2 /* Info.plist */,
 				EA2F817C1A872AAD0052431F /* Apperence.plist */,
+				EACA24E01A89D8E3002F0C84 /* CustomPickerView.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -272,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA5D222A1A835EA9006A9E0A /* Main.storyboard in Resources */,
+				EACA24E11A89D8E3002F0C84 /* CustomPickerView.xib in Resources */,
 				EA2F817D1A872AAD0052431F /* Apperence.plist in Resources */,
 				EAEEA6521A78D9A900AEBEC2 /* LaunchScreen.xib in Resources */,
 				EAEEA64F1A78D9A900AEBEC2 /* Images.xcassets in Resources */,
@@ -300,11 +321,14 @@
 				EAE35F221A88B4EF00AEB730 /* AddItemCollectionViewCell.swift in Sources */,
 				EA2F817B1A84D1550052431F /* ColorHelper.swift in Sources */,
 				EA2F817F1A88538E0052431F /* AddItemTitleTableViewCell.swift in Sources */,
+				EACA24E31A89DB59002F0C84 /* CustomPickerView.swift in Sources */,
 				EA2F81811A8853AE0052431F /* AddItemTimeTableViewCell.swift in Sources */,
 				EAEEA6481A78D9A900AEBEC2 /* Plan.xcdatamodeld in Sources */,
 				EA5D222C1A836E66006A9E0A /* AddItemC.swift in Sources */,
 				EAEEA6451A78D9A900AEBEC2 /* AppDelegate.swift in Sources */,
+				EACA24DD1A89B28A002F0C84 /* Int.swift in Sources */,
 				EA2F81851A8860F70052431F /* AddItemIconTableViewCell.swift in Sources */,
+				EACA24DF1A89B72E002F0C84 /* String.swift in Sources */,
 				EA1C534A1A7DE90700B5D30A /* MyNavigationC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
