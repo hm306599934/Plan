@@ -52,6 +52,10 @@ class RootC: UIViewController, MenuDelegate {
         self.tapRecognizer = UITapGestureRecognizer(target: self, action: Selector("closeMenu"))
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
     func pan(panGesture: UIPanGestureRecognizer){
         switch panGesture.state{
         case .Changed:

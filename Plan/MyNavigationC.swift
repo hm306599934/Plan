@@ -19,6 +19,7 @@ class MyNavigationC: UINavigationController {
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
         //导航栏返回按钮颜色
         self.navigationBar.tintColor = UIColor.whiteColor()
+        self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont.boldSystemFontOfSize(22.0)]
         //导航栏标题样式
     }
 

@@ -6,28 +6,23 @@
 //  Copyright (c) 2015年 Jesse. All rights reserved.
 //
 import UIKit
+import QuartzCore
 
 class MainC: UIViewController, MenuClickDelegate, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var mTableView: UITableView!
     var delegate: MenuDelegate?
     
+    @IBAction func showItem(sender: AnyObject) {
+        performSegueWithIdentifier("ShowAddItem", sender: nil)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         menuClickDelegate = self
         let titleView = UIImageView(frame:CGRectMake(0, 0, 95, 32))
         titleView.image = UIImage(named:"icon_ihour")
         self.navigationItem.titleView = titleView
-       
-        let apperenceInfoPath = NSBundle.mainBundle().pathForResource("Apperence", ofType: "plist")
-        var apperenceInfo: NSMutableDictionary = NSMutableDictionary(contentsOfFile: apperenceInfoPath!)!
-        //var a =  NSMutableDictionary()
-        if apperenceInfo.objectForKey("0064") != nil {
-            var a = apperenceInfo.objectForKey("0064")?.objectForKey("IconName") as String
-           
-            NSLog(a)
-        }
-        
     }
     
     override func didReceiveMemoryWarning() {
